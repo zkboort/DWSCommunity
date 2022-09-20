@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a641b3c-883c-40bb-8448-dd08600427bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-admin/admin-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-admin/admin-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-admin/admin-service/src/main/resources/applacation.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-common/src/main/java/com/dwsc/configs/jackson/JacksonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-common/src/main/java/com/dwsc/configs/jetcache/JetcacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-common/src/main/java/com/dwsc/configs/mybatisPlus/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-common/src/main/java/com/dwsc/configs/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-common/src/main/java/com/dwsc/configs/resourceServer/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/authorization-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/authorization-server/src/main/java/com/dwsc/authorizationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/authorization-server/src/main/java/com/dwsc/config/AuthorizationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/authorization-server/src/main/java/com/dwsc/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/authorization-server/src/main/java/com/dwsc/config/webSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/authorization-server/src/main/java/com/dwsc/constant/LoginConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/authorization-server/src/main/java/com/dwsc/service/serviceImpl/MyUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/authorization-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/authorization-server/src/main/resources/dwscommunity.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/gateway-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/gateway-server/src/main/java/com/dwsc/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/gateway-server/src/main/java/com/dwsc/filter/jwtCheckFillter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/gateway-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-iaas/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-push/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-push/push-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-push/push-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-statistic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-statistic/statistic-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-statistic/statistic-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWS-task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven3.8.4\apache-maven-3.8.4-bin\apache-maven-3.8.4\localRepository" />
+        <option name="mavenHome" value="D:/maven3.8.4/apache-maven-3.8.4-bin/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\maven3.8.4\apache-maven-3.8.4-bin\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Epg6YUkrkYoxvFMOzCd5n6Ps1h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11 (2)",
+    "last_opened_file_path": "E:/carleasingclub_monolith-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "spring.configuration.checksum": "939b4921acb2adfe8d05adcd294962f9",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DWSCommunity\DWS-iaas\authorization-server\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.authorizationApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dwsc.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="authorizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="authorization-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dwsc.authorizationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a641b3c-883c-40bb-8448-dd08600427bd" name="Changes" comment="" />
+      <created>1663297770566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663297770566</updated>
+      <workItem from="1663297772045" duration="43274000" />
+      <workItem from="1663479742598" duration="5773000" />
+      <workItem from="1663500338816" duration="2428000" />
+      <workItem from="1663563829436" duration="34960000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

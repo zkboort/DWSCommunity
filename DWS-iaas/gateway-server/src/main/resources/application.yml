@@ -1,0 +1,56 @@
+server:
+  port: 80
+spring:
+  application:
+    name: gateway-server
+  redis:
+    host: 192.168.38.1
+    port: 6379
+  cloud:
+    nacos:
+      #服务发现
+      discovery:
+        server-addr: localhost:8848  #推荐使用域名+端口，这样修改本机的host文件即可
+    gateway:
+      #服务发现
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      #服务路由规则
+      routes:
+        - id: admin-service_router
+          uri: lb://admin-service
+          #断言判断请求
+          predicates:
+            - Path=/admin/**
+        - id: test-router
+          uri: https://www.aliyun.com
+          predicates:
+            - Path=/product
+
+    #限流：网关+API分组
+    sentinel:
+      transport:
+        #当前微服务和sentinel控制台进行数据传递的端口
+        port: 8719
+        #sentinel控制台
+        dashboard: 192.168.38.1:8858
+      datasource:
+        ds1:
+          nacos:
+            username: nacos
+            password: nacos
+            server-addr: localhost:8848
+            data-id: gw-flow #网关+API分组的限流
+            data-type: json
+            rule-type: flow
+        ds2:
+          nacos:
+            username: nacos
+            password: nacos
+            server-addr: localhost:8848
+            data-id: api-group   #api分组
+            data-type: json
+            rule-type: flow
+
